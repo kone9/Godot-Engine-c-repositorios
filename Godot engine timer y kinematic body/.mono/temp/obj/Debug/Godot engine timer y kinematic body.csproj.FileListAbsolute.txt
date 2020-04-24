@@ -1,0 +1,5 @@
+/home/ariel/Escritorio/Godot engine timer y kinematic body/.mono/temp/bin/Debug/Godot engine timer y kinematic body.dll
+/home/ariel/Escritorio/Godot engine timer y kinematic body/.mono/temp/bin/Debug/Godot engine timer y kinematic body.pdb
+/home/ariel/Escritorio/Godot engine timer y kinematic body/.mono/temp/obj/Debug/Godot engine timer y kinematic body.csprojAssemblyReference.cache
+/home/ariel/Escritorio/Godot engine timer y kinematic body/.mono/temp/obj/Debug/Godot engine timer y kinematic body.dll
+/home/ariel/Escritorio/Godot engine timer y kinematic body/.mono/temp/obj/Debug/Godot engine timer y kinematic body.pdb

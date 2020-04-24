@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://KinematicBody2D.cs" type="Script" id=1]
+[ext_resource path="res://icon.png" type="Texture" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 30, 30 )
+
+[node name="Node2D" type="Node2D"]
+
+[node name="KinematicBody2D" type="KinematicBody2D" parent="."]
+position = Vector2( 501.072, 500 )
+script = ExtResource( 1 )
+velocidad = -200
+
+[node name="Sprite" type="Sprite" parent="KinematicBody2D"]
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="KinematicBody2D"]
+shape = SubResource( 1 )
+
+[node name="TimerAumentarVelocidad" type="Timer" parent="."]
+wait_time = 2.0
+autostart = true
+[connection signal="timeout" from="TimerAumentarVelocidad" to="KinematicBody2D" method="_on_TimerAumentarVelocidad_timeout"]
