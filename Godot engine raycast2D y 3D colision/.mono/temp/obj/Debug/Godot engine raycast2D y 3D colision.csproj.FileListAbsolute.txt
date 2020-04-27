@@ -1,0 +1,5 @@
+/home/ariel/Escritorio/Godot engine raycast2D y 3D colision/.mono/temp/bin/Debug/Godot engine raycast2D y 3D colision.dll
+/home/ariel/Escritorio/Godot engine raycast2D y 3D colision/.mono/temp/bin/Debug/Godot engine raycast2D y 3D colision.pdb
+/home/ariel/Escritorio/Godot engine raycast2D y 3D colision/.mono/temp/obj/Debug/Godot engine raycast2D y 3D colision.csprojAssemblyReference.cache
+/home/ariel/Escritorio/Godot engine raycast2D y 3D colision/.mono/temp/obj/Debug/Godot engine raycast2D y 3D colision.dll
+/home/ariel/Escritorio/Godot engine raycast2D y 3D colision/.mono/temp/obj/Debug/Godot engine raycast2D y 3D colision.pdb
