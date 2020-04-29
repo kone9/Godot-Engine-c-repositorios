@@ -1,0 +1,5 @@
+/home/ariel/Escritorio/Godot engine c# crear nodos por codigo/.mono/temp/bin/Debug/Godot engine c# crear nodos por codigo.dll
+/home/ariel/Escritorio/Godot engine c# crear nodos por codigo/.mono/temp/bin/Debug/Godot engine c# crear nodos por codigo.pdb
+/home/ariel/Escritorio/Godot engine c# crear nodos por codigo/.mono/temp/obj/Debug/Godot engine c# crear nodos por codigo.csprojAssemblyReference.cache
+/home/ariel/Escritorio/Godot engine c# crear nodos por codigo/.mono/temp/obj/Debug/Godot engine c# crear nodos por codigo.dll
+/home/ariel/Escritorio/Godot engine c# crear nodos por codigo/.mono/temp/obj/Debug/Godot engine c# crear nodos por codigo.pdb
