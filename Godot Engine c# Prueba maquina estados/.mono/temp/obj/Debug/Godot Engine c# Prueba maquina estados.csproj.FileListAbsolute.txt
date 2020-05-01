@@ -1,0 +1,5 @@
+/home/ariel/Escritorio/Godot Engine c# Prueba maquina estados/.mono/temp/bin/Debug/Godot Engine c# Prueba maquina estados.dll
+/home/ariel/Escritorio/Godot Engine c# Prueba maquina estados/.mono/temp/bin/Debug/Godot Engine c# Prueba maquina estados.pdb
+/home/ariel/Escritorio/Godot Engine c# Prueba maquina estados/.mono/temp/obj/Debug/Godot Engine c# Prueba maquina estados.csprojAssemblyReference.cache
+/home/ariel/Escritorio/Godot Engine c# Prueba maquina estados/.mono/temp/obj/Debug/Godot Engine c# Prueba maquina estados.dll
+/home/ariel/Escritorio/Godot Engine c# Prueba maquina estados/.mono/temp/obj/Debug/Godot Engine c# Prueba maquina estados.pdb
