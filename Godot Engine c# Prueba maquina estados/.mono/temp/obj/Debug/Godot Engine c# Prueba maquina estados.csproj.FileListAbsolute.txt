@@ -3,3 +3,8 @@
 /home/ariel/Escritorio/Godot Engine c# Prueba maquina estados/.mono/temp/obj/Debug/Godot Engine c# Prueba maquina estados.csprojAssemblyReference.cache
 /home/ariel/Escritorio/Godot Engine c# Prueba maquina estados/.mono/temp/obj/Debug/Godot Engine c# Prueba maquina estados.dll
 /home/ariel/Escritorio/Godot Engine c# Prueba maquina estados/.mono/temp/obj/Debug/Godot Engine c# Prueba maquina estados.pdb
+/home/ariel/Documentos/Godot engine proyectos/GODOT C# PROYECTOS/Godot engine repositorio c#/Godot Engine c# Prueba maquina estados/.mono/temp/bin/Debug/Godot Engine c# Prueba maquina estados.dll
+/home/ariel/Documentos/Godot engine proyectos/GODOT C# PROYECTOS/Godot engine repositorio c#/Godot Engine c# Prueba maquina estados/.mono/temp/bin/Debug/Godot Engine c# Prueba maquina estados.pdb
+/home/ariel/Documentos/Godot engine proyectos/GODOT C# PROYECTOS/Godot engine repositorio c#/Godot Engine c# Prueba maquina estados/.mono/temp/obj/Debug/Godot Engine c# Prueba maquina estados.csprojAssemblyReference.cache
+/home/ariel/Documentos/Godot engine proyectos/GODOT C# PROYECTOS/Godot engine repositorio c#/Godot Engine c# Prueba maquina estados/.mono/temp/obj/Debug/Godot Engine c# Prueba maquina estados.dll
+/home/ariel/Documentos/Godot engine proyectos/GODOT C# PROYECTOS/Godot engine repositorio c#/Godot Engine c# Prueba maquina estados/.mono/temp/obj/Debug/Godot Engine c# Prueba maquina estados.pdb

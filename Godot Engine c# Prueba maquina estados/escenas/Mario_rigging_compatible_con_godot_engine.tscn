@@ -1977,6 +1977,7 @@ tracks/28/keys = PoolRealArray( 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0.375, 1, 0,
 [sub_resource type="Animation" id=12]
 resource_name = "nadar_brazos_y_piernas"
 length = 1.16667
+loop = true
 tracks/0/type = "transform"
 tracks/0/path = NodePath("rigging_de_mario/Skeleton:metatarzo_l")
 tracks/0/interp = 1
@@ -4060,6 +4061,8 @@ animation = "saltar_alto"
 xfade_time = 0.5
 
 [sub_resource type="AnimationNodeStateMachineTransition" id=27]
+switch_mode = 2
+auto_advance = true
 xfade_time = 1.0
 
 [sub_resource type="AnimationNodeStateMachineTransition" id=28]
@@ -4072,21 +4075,19 @@ xfade_time = 0.5
 xfade_time = 0.5
 
 [sub_resource type="AnimationNodeStateMachineTransition" id=31]
-switch_mode = 2
-auto_advance = true
-xfade_time = 1.0
+xfade_time = 0.5
 
 [sub_resource type="AnimationNodeStateMachine" id=32]
 states/caminar/node = SubResource( 22 )
-states/caminar/position = Vector2( 308, 207 )
+states/caminar/position = Vector2( 333, 207 )
 states/correr/node = SubResource( 23 )
-states/correr/position = Vector2( 555, 207 )
+states/correr/position = Vector2( 587, 207 )
 states/estatico_largo/node = SubResource( 24 )
-states/estatico_largo/position = Vector2( 308, 77 )
+states/estatico_largo/position = Vector2( 333, 76 )
 states/saltar_alto/node = SubResource( 25 )
-states/saltar_alto/position = Vector2( 803, 207 )
-transitions = [ "estatico_largo", "caminar", SubResource( 26 ), "caminar", "estatico_largo", SubResource( 27 ), "caminar", "correr", SubResource( 28 ), "correr", "caminar", SubResource( 29 ), "correr", "saltar_alto", SubResource( 30 ), "saltar_alto", "correr", SubResource( 31 ) ]
-graph_offset = Vector2( 111, 3 )
+states/saltar_alto/position = Vector2( 839, 207 )
+transitions = [ "correr", "saltar_alto", SubResource( 26 ), "saltar_alto", "correr", SubResource( 27 ), "caminar", "correr", SubResource( 28 ), "correr", "caminar", SubResource( 29 ), "estatico_largo", "caminar", SubResource( 30 ), "caminar", "estatico_largo", SubResource( 31 ) ]
+graph_offset = Vector2( 189, 17 )
 
 [sub_resource type="AnimationNodeStateMachinePlayback" id=33]
 

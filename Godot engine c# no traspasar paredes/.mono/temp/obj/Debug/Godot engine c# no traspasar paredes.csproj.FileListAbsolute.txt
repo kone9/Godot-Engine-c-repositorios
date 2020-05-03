@@ -1,0 +1,5 @@
+/home/ariel/Escritorio/Godot engine c# no traspasar paredes/.mono/temp/bin/Debug/Godot engine c# no traspasar paredes.dll
+/home/ariel/Escritorio/Godot engine c# no traspasar paredes/.mono/temp/bin/Debug/Godot engine c# no traspasar paredes.pdb
+/home/ariel/Escritorio/Godot engine c# no traspasar paredes/.mono/temp/obj/Debug/Godot engine c# no traspasar paredes.csprojAssemblyReference.cache
+/home/ariel/Escritorio/Godot engine c# no traspasar paredes/.mono/temp/obj/Debug/Godot engine c# no traspasar paredes.dll
+/home/ariel/Escritorio/Godot engine c# no traspasar paredes/.mono/temp/obj/Debug/Godot engine c# no traspasar paredes.pdb

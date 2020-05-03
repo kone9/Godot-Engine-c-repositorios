@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=2]
+
+[sub_resource type="CubeMesh" id=1]
+size = Vector3( 0.1, 0.1, 0.5 )
+
+[sub_resource type="CubeMesh" id=2]
+size = Vector3( 0.194, 0.184, 0.147 )
+
+[node name="Viewport" type="Viewport"]
+keep_3d_linear = true
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 0.481983, 0, 0.876181, 0, 1, 0, -0.876181, 0, 0.481983, 1.90729, 1, 0.731652 )
+cull_mask = 2
+
+[node name="MeshInstance" type="MeshInstance" parent="Camera"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0289999, -0.177, -0.426 )
+layers = 2
+mesh = SubResource( 1 )
+material/0 = null
+
+[node name="MeshInstance" type="MeshInstance" parent="Camera/MeshInstance"]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 5.96046e-08, 0, -0.292371 )
+layers = 2
+mesh = SubResource( 2 )
+material/0 = null

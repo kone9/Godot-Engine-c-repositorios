@@ -1,0 +1,73 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Camera.cs" type="Script" id=1]
+[ext_resource path="res://Gunfornick.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Material_piedra.tres" type="Material" id=3]
+
+[sub_resource type="PlaneMesh" id=1]
+material = ExtResource( 3 )
+size = Vector2( 50, 50 )
+
+[sub_resource type="CubeMesh" id=2]
+size = Vector3( 0.2, 2, 4 )
+
+[sub_resource type="CubeMesh" id=3]
+size = Vector3( 0.1, 0.1, 0.5 )
+
+[sub_resource type="CubeMesh" id=4]
+size = Vector3( 0.194, 0.184, 0.147 )
+
+[node name="Escena_principal" type="Spatial"]
+
+[node name="DirectionalLight" type="DirectionalLight" parent="."]
+transform = Transform( 0.973166, -0.000671, -0.230104, 0.116449, 0.863925, 0.489972, 0.198464, -0.50362, 0.840821, 0, 3.12589, 0 )
+
+[node name="MeshInstance" type="MeshInstance" parent="."]
+mesh = SubResource( 1 )
+material/0 = null
+
+[node name="MeshInstance2" type="MeshInstance" parent="."]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 0.995158, 0.971651, 0.000283599 )
+mesh = SubResource( 2 )
+material/0 = ExtResource( 3 )
+
+[node name="Camera" type="Camera" parent="."]
+transform = Transform( 0.481983, 0, 0.876181, 0, 1, 0, -0.876181, 0, 0.481983, 1.90729, 1, 0.731652 )
+cull_mask = 1
+current = true
+script = ExtResource( 1 )
+
+[node name="ViewportContainer" type="ViewportContainer" parent="Camera"]
+margin_right = 40.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Viewport" type="Viewport" parent="Camera/ViewportContainer"]
+size = Vector2( 1024, 600 )
+transparent_bg = true
+handle_input_locally = false
+render_target_update_mode = 3
+
+[node name="Camera" type="Camera" parent="Camera/ViewportContainer/Viewport"]
+transform = Transform( 0.481983, 0, 0.876181, 0, 1, 0, -0.876181, 0, 0.481983, 1.90729, 1, 0.731652 )
+cull_mask = 2
+current = true
+
+[node name="MeshInstance" type="MeshInstance" parent="Camera/ViewportContainer/Viewport/Camera"]
+transform = Transform( 1, 0, 2.98023e-07, 0, 1, 0, -2.98023e-07, 0, 1, 0.0290014, -0.177, -0.425997 )
+visible = false
+layers = 2
+mesh = SubResource( 3 )
+material/0 = null
+
+[node name="MeshInstance" type="MeshInstance" parent="Camera/ViewportContainer/Viewport/Camera/MeshInstance"]
+transform = Transform( 1, 0, -2.98023e-08, 0, 1, 0, 2.98023e-08, 0, 1, 0, 0, -0.292371 )
+layers = 2
+mesh = SubResource( 4 )
+material/0 = null
+
+[node name="Gunfornick" parent="Camera/ViewportContainer/Viewport" instance=ExtResource( 2 )]
+transform = Transform( 0.0121993, 0, 0.199628, 0, 0.2, 0, -0.199628, 0, 0.0121993, 0.992924, 0.726482, 0.402959 )
+layers = 2
