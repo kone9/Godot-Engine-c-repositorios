@@ -1,0 +1,5 @@
+/home/ariel/Escritorio/Godot Engine c# moverConRaycast y Grid-Move/.mono/temp/bin/Debug/Godot Engine c# moverConRaycast y Grid-Move.dll
+/home/ariel/Escritorio/Godot Engine c# moverConRaycast y Grid-Move/.mono/temp/bin/Debug/Godot Engine c# moverConRaycast y Grid-Move.pdb
+/home/ariel/Escritorio/Godot Engine c# moverConRaycast y Grid-Move/.mono/temp/obj/Debug/Godot Engine c# moverConRaycast y Grid-Move.csprojAssemblyReference.cache
+/home/ariel/Escritorio/Godot Engine c# moverConRaycast y Grid-Move/.mono/temp/obj/Debug/Godot Engine c# moverConRaycast y Grid-Move.dll
+/home/ariel/Escritorio/Godot Engine c# moverConRaycast y Grid-Move/.mono/temp/obj/Debug/Godot Engine c# moverConRaycast y Grid-Move.pdb

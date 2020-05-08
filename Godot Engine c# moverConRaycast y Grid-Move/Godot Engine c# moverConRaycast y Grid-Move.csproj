@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7B80791D-C35A-408E-9FB1-47EBD6F74586}</ProjectGuid>
+    <ProjectGuid>{370A7853-64ED-4D97-B129-60D855C0E1C9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <OutputPath>.mono/temp/bin/$(Configuration)</OutputPath>
-    <RootNamespace>Godotenginecnotraspasarparedes</RootNamespace>
-    <AssemblyName>Godot engine c# no traspasar paredes</AssemblyName>
+    <RootNamespace>GodotEnginecmoverConRaycastyGridMove</RootNamespace>
+    <AssemblyName>Godot Engine c# moverConRaycast y Grid-Move</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <GodotProjectGeneratorVersion>1.0.7412.22656</GodotProjectGeneratorVersion>
     <BaseIntermediateOutputPath>.mono/temp/obj</BaseIntermediateOutputPath>
@@ -53,8 +53,8 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Camara.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sprite.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
