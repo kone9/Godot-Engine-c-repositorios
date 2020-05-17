@@ -1,0 +1,6 @@
+/home/ariel/Escritorio/GOdot Engine C# verificar si existe un nodo/.mono/temp/bin/Debug/GOdot Engine C# verificar si existe un nodo.dll
+/home/ariel/Escritorio/GOdot Engine C# verificar si existe un nodo/.mono/temp/bin/Debug/GOdot Engine C# verificar si existe un nodo.pdb
+/home/ariel/Escritorio/GOdot Engine C# verificar si existe un nodo/.mono/temp/obj/Debug/GOdot Engine C# verificar si existe un nodo.csprojAssemblyReference.cache
+/home/ariel/Escritorio/GOdot Engine C# verificar si existe un nodo/.mono/temp/obj/Debug/GOdot Engine C# verificar si existe un nodo.csproj.CoreCompileInputs.cache
+/home/ariel/Escritorio/GOdot Engine C# verificar si existe un nodo/.mono/temp/obj/Debug/GOdot Engine C# verificar si existe un nodo.dll
+/home/ariel/Escritorio/GOdot Engine C# verificar si existe un nodo/.mono/temp/obj/Debug/GOdot Engine C# verificar si existe un nodo.pdb
