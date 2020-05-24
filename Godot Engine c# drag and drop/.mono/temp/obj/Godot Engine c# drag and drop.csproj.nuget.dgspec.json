@@ -1,0 +1,56 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ariel/Escritorio/Godot Engine c# drag and drop/Godot Engine c# drag and drop.csproj": {}
+  },
+  "projects": {
+    "/home/ariel/Escritorio/Godot Engine c# drag and drop/Godot Engine c# drag and drop.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ariel/Escritorio/Godot Engine c# drag and drop/Godot Engine c# drag and drop.csproj",
+        "projectName": "Godot Engine c# drag and drop",
+        "projectPath": "/home/ariel/Escritorio/Godot Engine c# drag and drop/Godot Engine c# drag and drop.csproj",
+        "packagesPath": "/home/ariel/.nuget/packages/",
+        "outputPath": "/home/ariel/Escritorio/Godot Engine c# drag and drop/.mono/temp/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/home/ariel/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net47"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net47": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net47": {
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

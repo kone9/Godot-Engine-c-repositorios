@@ -1,0 +1,6 @@
+/home/ariel/Escritorio/Godot Engine c# drag and drop/.mono/temp/bin/Debug/Godot Engine c# drag and drop.dll
+/home/ariel/Escritorio/Godot Engine c# drag and drop/.mono/temp/bin/Debug/Godot Engine c# drag and drop.pdb
+/home/ariel/Escritorio/Godot Engine c# drag and drop/.mono/temp/obj/Debug/Godot Engine c# drag and drop.csprojAssemblyReference.cache
+/home/ariel/Escritorio/Godot Engine c# drag and drop/.mono/temp/obj/Debug/Godot Engine c# drag and drop.csproj.CoreCompileInputs.cache
+/home/ariel/Escritorio/Godot Engine c# drag and drop/.mono/temp/obj/Debug/Godot Engine c# drag and drop.dll
+/home/ariel/Escritorio/Godot Engine c# drag and drop/.mono/temp/obj/Debug/Godot Engine c# drag and drop.pdb
